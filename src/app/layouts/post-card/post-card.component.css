@@ -1,0 +1,46 @@
+/* Style for the card container */
+.card {
+    width: 300px; /* Adjust the width as needed */
+    height: 400px; /* Total height of the card */
+    background-color: #f4f4f4; /* Background color */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Image styling to take up 45% of the card's height */
+  .card img {
+    width: 100%; /* Full width of the card */
+    height: 45%; /* Takes 45% of the card's height */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  /* Content below the image */
+  .card-content {
+    padding: 15px;
+    height: 55%; /* Remaining 55% of the card's height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out title and tags */
+  }
+  
+  /* Title styling */
+  .card-title {
+    font-size: 14px;
+    margin: 0 0 10px; /* Margin below the title */
+  }
+  
+  /* Tags container */
+  .tags {
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-around; Space the tags evenly */
+  }
+  
+  /* Individual tag styling */
+  
+  
